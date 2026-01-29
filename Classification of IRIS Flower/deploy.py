@@ -1,5 +1,10 @@
 import streamlit as st
 import joblib
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "knn_model.joblib")
+model = joblib.load(MODEL_PATH)
 
 st.title("Iris Flower Classifier 🌻")
 
