@@ -8,7 +8,6 @@ model = joblib.load(MODEL_PATH)
 
 st.title("Iris Flower Classifier 🌻")
 
-model=joblib.load('knn_model.joblib')
 sepal_length=st.number_input(label="Sepal Length", min_value=0.0,max_value=10.0)
 sepal_width=st.number_input(label="Sepal Width", min_value=0.0,max_value=10.0)
 petal_length=st.number_input(label="Petal Length", min_value=0.0,max_value=10.0)
