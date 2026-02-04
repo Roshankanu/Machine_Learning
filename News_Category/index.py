@@ -19,3 +19,5 @@ if st.button("Predict Category"):
         prediction=model.predict([input_text])[0]
         st.success(f'Predicted Category is {prediction}')
 
+        # https://newscategory-pred-rk.streamlit.app/
+

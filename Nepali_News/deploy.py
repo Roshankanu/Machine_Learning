@@ -22,3 +22,5 @@ if st.button("Predict Category"):
         else:
             prediction=model.predict([input_text])[0]
             st.success(f'Predicted Category is {prediction}')
+
+# https://nepalinews-prediction-rk.streamlit.app/

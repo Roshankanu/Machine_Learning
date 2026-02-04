@@ -20,4 +20,4 @@ if st.button("Predict"):
     st.success(f"🌻Predicted Species is {prediction}🌻 ")
 
 
-    # https://irisflower-classification-rk.streamlit.app/
+    # https://classification-iris-flower-rk.streamlit.app/

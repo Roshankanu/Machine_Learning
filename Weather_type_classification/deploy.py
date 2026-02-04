@@ -21,3 +21,5 @@ if st.button("Predict"):
 else:
         # Display warning if out of valid range
         st.warning("⚠️ Enter a valid range for prediction.")
+
+        # https://weathertype-prediction-rk.streamlit.app/
